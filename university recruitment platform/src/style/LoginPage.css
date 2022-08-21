@@ -1,0 +1,69 @@
+*{
+}
+.login{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right bottom, #6b7ed1, #6f86d6, #738eda, #7896de, #7e9ee2, #7a9ce6, #779beb, #7399ef, #688df4, #6081f8, #5d73fa, #5f64fb);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    width: 50vw;
+    height: 75vh;
+    
+}
+
+.right{
+    width:28vw;
+    height: 55vh;
+    font-weight: 50;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.loginbox{
+    height: 55vh;
+    width: 28vw;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+        border-radius: 12px;
+}
+.logoo{
+    height: 150px;
+}
+.clgnm{
+    font-size: 70px;
+
+}
+.textarea{
+    color: #242424;
+    margin-top: 30px;
+}.formform{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 0px 50px;
+}
+.textfield1{
+    margin: 20px 0px;
+}
+.signintext{
+    padding: 30px 50px 0px 50px;
+}
+.notsigned{
+    margin-bottom: 20px;
+}
+.registerbox{
+    height: 64vh !important;
+
+}

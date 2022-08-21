@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.adminDasboard{
+    height : 100vh;
+    background-image: linear-gradient(to right bottom, #6b7ed1, #6f86d6, #738eda, #7896de, #7e9ee2, #7a9ce6, #779beb, #7399ef, #688df4, #6081f8, #5d73fa, #5f64fb);
+}
+
+.notificationCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardAlign {
+    margin: 8vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

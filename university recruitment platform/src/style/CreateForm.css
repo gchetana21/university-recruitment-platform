@@ -1,0 +1,83 @@
+.create{
+    background-image: linear-gradient(to right bottom, #6b7ed1, #6f86d6, #738eda, #7896de, #7e9ee2, #7a9ce6, #779beb, #7399ef, #688df4, #6081f8, #5d73fa, #5f64fb);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chead{
+    height: 80px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+}
+.chead h1{
+margin-left: 30px;
+}
+.cbody{
+    height: auto;
+    width: 90vw;
+}
+.cleft{
+    width: 60vw;
+    height: 700px;
+    overflow-y: scroll;
+}
+.step1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.step2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.step3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nothing{
+    cursor: auto;
+}
+.hide{
+    display: none;
+}
+.formdesc{
+    font-size: 32px;
+    width: 30vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: right;
+
+}
+.smalll{
+    font-size: 50px;
+}
+.aform{
+    display: flex;
+   margin-top: 20px;
+    flex-direction: column;
+    padding: 20px 100px;
+}
+.tf{
+    margin: 12px 20px !important;
+    background-color: none;
+}
+.tff{
+    margin: 12px 20px !important;
+    background-color: none;
+    z-index: 1000;
+}
+.leftbtn{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 5px 100px;
+}
+.btnmrg{
+    margin-right: 100px;
+}
